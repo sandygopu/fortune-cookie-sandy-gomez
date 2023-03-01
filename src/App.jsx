@@ -10,7 +10,7 @@ import phrases from './data/phrases.json'
 
 function App() {
 
-  const bgImages = [ "url(/public/fondo1.jpg)", "url(/public/fondo2.jpg)", "url(/public/fondo3.jpg)", "url(/public/fondo4.jpg)"]
+  const bgImages = [ "url(/fondo1.jpg)", "url(/fondo2.jpg)", "url(/fondo3.jpg)", "url(/fondo4.jpg)"]
 
   const [index, setIndex] = useState( 0 )
   const [indexBgImage, setIndexBgImage] = useState( 0 )
