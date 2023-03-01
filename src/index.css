@@ -50,6 +50,7 @@ img {
   height: auto;
 }
 
+
 button {
   cursor: pointer;
   border-color: white;
@@ -64,6 +65,21 @@ button {
 }
 
 button:hover{
+  background-color: rgb(255, 255, 255);
+}
+
+
+.projects{
+  border-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px 40px;
+  color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: background-color;
+  transition: background-color;
+  border-radius: 0 0 100px 100px;
+}
+
+.projects:hover{
   background-color: rgb(255, 255, 255);
 }
 

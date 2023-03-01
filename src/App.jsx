@@ -30,14 +30,17 @@ function App() {
 
   console.log(phrases[0])
   return (
-    <div className="App" style={ { backgroundImage: bgImages[indexBgImage]} }>
-
+    <div style={ { backgroundImage: bgImages[indexBgImage]} }>
+      <a className='projects' href="https://portfolio-sandy-gomez.netlify.app/" target={"_blank"}>More Projects</a>
+    <div className="App" >
+      
       <h1 className='tittle'>GALLETAS DE LA FORTUNA</h1>
       <CardPhrases
       phrasesData = { phrases[index] }
       />
       <button onClick={ changeFortune }>Ver otro</button>
       {/* <Button/> */}
+    </div>
     </div>
   )
 }
