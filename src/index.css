@@ -25,14 +25,8 @@ body {
 
 }
 
-h1 {
-  font-weight: 700;
-  text-shadow: 1px 1px 2px 1px black;
-  padding: 15px;
-  width: 400px;
-  text-shadow: 5px 10px 5px rgba(0, 0, 0, 0.3);
-}
 
+h1,
 h2,
 h3,
 h4 {
@@ -40,14 +34,7 @@ h4 {
   font-weight: 500;
 }
 
-h2{
-  -webkit-transition: color;
-  transition: color;
-}
 
-h2:hover{
-  color: rgba(0, 0, 0, 0.549);
-}
 
 
 ul {
@@ -111,6 +98,37 @@ button:hover{
   border-radius: 0px;
 }
 
+.card-text{
+  -webkit-transition: color;
+  transition: color;
+}
+
+.card-text:hover{
+  color: rgba(0, 0, 0, 0.549);
+}
+
+
+
+.tittle{
+  color: #fff;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px 1px black;
+  padding: 15px;
+  width: 400px;
+  text-shadow: 5px 10px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.tittle:hover::after {
+  content: " - by Sandy Gómez";
+  font-weight: 700;
+  font-size: small;
+}
+
+.tittle:hover::before {
+  content: " PROYECTO 1 : ";
+  font-size: small;
+}
 
 
 @media screen and (min-width: 576px) {

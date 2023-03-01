@@ -5,7 +5,7 @@ const CardPhrases = ({ phrasesData }) => {
     console.log(phrasesData)
     return (
         <div className='card-phrases'>
-            <h2>{ phrasesData.phrase }</h2>
+            <h2 className='card-text'>{ phrasesData.phrase }</h2>
             {/* <h3>Nombre del autor</h3> */}
         </div>
     );

@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="App" style={ { backgroundImage: bgImages[indexBgImage]} }>
 
-      <h1>GALLETAS DE LA FORTUNAS</h1>
+      <h1 className='tittle'>GALLETAS DE LA FORTUNA</h1>
       <CardPhrases
       phrasesData = { phrases[index] }
       />
