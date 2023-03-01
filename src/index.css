@@ -32,12 +32,23 @@ h1 {
   width: 400px;
   text-shadow: 5px 10px 5px rgba(0, 0, 0, 0.3);
 }
+
 h2,
 h3,
 h4 {
   color: rgba(0, 0, 0, 0.4);
   font-weight: 500;
 }
+
+h2{
+  -webkit-transition: color;
+  transition: color;
+}
+
+h2:hover{
+  color: rgba(0, 0, 0, 0.549);
+}
+
 
 ul {
   list-style: none;
@@ -61,6 +72,12 @@ button {
   padding: 10px 40px;
   color: rgba(0, 0, 0, 0.5);
   font-size: larger;
+  -webkit-transition: background-color;
+  transition: background-color;
+}
+
+button:hover{
+  background-color: rgb(255, 255, 255);
 }
 
 .App{
@@ -70,6 +87,7 @@ button {
   height: 100vh;
   background-size: cover;
   flex-direction: column;
+  
   
 
 }
@@ -84,8 +102,15 @@ button {
   border-radius: 10px;
   border-bottom-right-radius: 100px;
   border-top-left-radius: 100px;
-  box-shadow: 15px 20px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 15px 20px 5px rgba(0, 0, 0, 0.3);  
+  -webkit-transition: 1s linear;
+  transition: 0.2s linear
 }
+
+.card-phrases:hover{
+  border-radius: 0px;
+}
+
 
 
 @media screen and (min-width: 576px) {
